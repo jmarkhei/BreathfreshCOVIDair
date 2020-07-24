@@ -82,8 +82,17 @@ What these bar graphs illustrate is that a bar showing a dark blue tip had a low
 ![](img/meanAQIcomp1.png)
 
 
-Let's zero in on a few outliers for fun. 
+Let's zero in on a few outliers for fun. Here are the top 5 and bottom 5 CBSAs in terms of mean AQI difference from 2019-2020.
+
+Top 5:
+![](img/topfive.png)
+Have NY and LA seen the most drastic drop in plane and automobile traffic? Has residual effects from wildfires in LA totally skewed their 2019 data as compared to 2020? 
+
+Bottom 5:
+![](img/bottomfive.png)
+Two cities show up from two states: Michigan and Texas.  Has there been no change in activity in these regions since COVID began? Famous photo of protesters in Michigan state house. Everything is Texas in Texas.  
  
+
 
 
 
@@ -93,7 +102,7 @@ This AQI analysis in the age of COVID-19 has demonstrated that more metro areas 
 
 Useful link on remote work data before COVID: https://www.moneypenny.com/us/resources/blog/remote-work-statistics/
 
-When did each of these CBSAs implement stay at home orders or other restrictions, and to what degree were they followed or enforced?  And at the heart of these confounding variables: how much can human activity in the span of 4 months effect our environment, and what lessons from this data should be drawn?  
+When did each of these CBSAs implement stay at home orders or other restrictions, and to what degree were they followed or enforced?  And at the heart of these confounding variables: how much can human activity in the span of 4 months affect our environment, and what lessons from this data should be drawn?  
 
 I hope to continue on with this project using the more robust and accurate time series analysis, folding in the aforementioned variables as data traffic data and remote work data become available in the coming months.  And if this project sparks interest in another able body, please reach out so we can discuss and potentially collaborate.  
 
