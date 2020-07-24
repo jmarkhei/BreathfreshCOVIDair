@@ -54,7 +54,7 @@ Warmer months resulting in higher AQI values is not a truth across the board.  T
 
 
 
-# Methods
+# Methods/Results
 
 To test my null hypothesis I chose to perform a T-test as the data follow a normal distribution with a mean and standard deviation. For the T-test the historic dataframe was whittled down to the 2019 values and mapped to the selected 58 metro areas.  For this I had to make a relational dictionary as the historic data listed the CBSA's differently that the 2020 data.  Using the power of scipy stats, looped through grouped by CBSA dataframes and what you see is the resulting dataframe of T-statistic and p_value.
 
@@ -64,9 +64,18 @@ To test my null hypothesis I chose to perform a T-test as the data follow a norm
 
 
 
-As we can see there are 34 metro areas which showed a significant difference in their mean AQI from March-June 2020 as compared to their 2019 mean AQI, and 24 metro areas which failed to reject the null hypothesis.  
+As we can see there are 34 metro areas which showed a significant difference in their mean AQI from March-June 2020 as compared to their 2019 mean AQI, and 24 metro areas which failed to reject the null hypothesis.  But let's visualize.
 
-# Results
+![](img/onestep.png)
+This is our first quick visual showing for the 58 metro areas AQI is either about the same from 2019-2020 or there is a decrease.
+
+![](img/meanAQIcomp2.png)
+![](img/meanAQIcomp1.png)
+
+
+What these graphs illustrate is the bars showing a dark blue tip have a lower 2020 mean AQI, with the size of the tip indicating the proportional change. Bars showing a cyan tip have a higher 2020 mean AQI. From the graphs alone we're not able to tell if these differences are significant (we use the ttest for that), but in general again we can see most have a decreased mean AQI, or an AQI which has increased by a small amount.  
+
+
 
 # Further Study
 
