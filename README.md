@@ -34,18 +34,24 @@ Before looking around at the historic data I claried my null and alternative hyp
             Ha: There is a signficant difference in mean AQI from 2019 to 2020
             
 
-Well **hold it** right there partner.  Where does 1980-2019 data come in to play with a null hypothesis that is only comparing 2019 to 2020?  Great question.  As I began exploring the data, plotting the mean AQI per year in each CBSA, my plan was to use the slope of the best fit line to inform the expected change we could expect from 2019 to 2020, and take this expected difference into account for the significance test calculation. But using data from the 80's, nearly every city has seen a marked decrease in AQI from 1980-2019, a slope that would have our AQI in the future crossing the X-axis.  This of course can't happen, there is no -AQI value, and I found myself in the world of time series analysis. Time series analysis is out of the scope of this particular project, but look for future analayis popping up on my github.  
+Well **hold it** right there partner.  Where does 1980-2019 data come in to play with a null hypothesis that is only comparing 2019 to 2020?  Great question.  As I began exploring the data, plotting the mean AQI per year in each CBSA, my plan was to use the slope of the best fit line to inform the expected change we could expect from 2019 to 2020, and take this expected difference into account for the significance test calculation. But using data from the 80's, nearly every city has seen a marked decrease in AQI from 1980-2019, a slope that would have our AQI in the future crossing the X-axis.  
+
+Here is a quick look just for an example we'll use Los Angeles: ![](img/test.jpg)
+
+This of course can't happen, there is no -AQI value, and I found myself in the world of time series analysis. Time series analysis is out of the scope of this particular project, but look for future analayis popping up on my github.  
 
 
-Now let's get have a look at some charts.  For this README we'll take 3 sample metro areas (Los Angeles, CA, New York City, NY, and Houston, TX) of the 58 on which I performed analysis.
+Now let's get have a look at some charts. As mention previously AQI has decreased across the board for metro areas in the US since the 1980's/
 
-# PUT CHARTS OF EACH CITY AQI 1980 - 2020
+![](img/historic_yearly_aqi.jpg)
 
-# put chart of mean aqi of all US and the three cities with fit line
+Additionally, AQI changes with the seasons, with warmer months trapping more Ozone and CO we observe an increase in AQI.
+
+![](img/historic_monthly_aqi.jpg)
 
 
-# put chart of historic monthly AQI for all US
-# put chart of 3 cites 2019 and 2020
+Warmer months resulting in higher AQI values is not a truth across the board.  There is great dependence on the location, averge temperature per month, and how cold and how long the winters last.  One aspect of AQI - particle pollution - is influenced most notably by wood burning fires.  In regions where wood burning fires are a common source of heat, and the winters are long, the AQI may be at its worst in the winter months.  
+
 
 
 # Methods
