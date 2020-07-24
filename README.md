@@ -58,7 +58,7 @@ Warmer months resulting in higher AQI values is not a truth across the board.  T
 
 To test my null hypothesis I chose to perform a students T-test. This is an appropriate test to measure if there is a difference between two populations following a normal distribution with a known mean and standard deviation. For the T-test the historic dataframe was whittled down to the 2019 values and mapped to the selected 58 metro areas.  For this I had to make a relational dictionary as the historic data listed the CBSA's differently than the 2020 data.  Using the power of scipy stats, I looped through the dataframe grouped by CBSA and year, comparing their mean AQI in 2019 to 2020. 
 
-The tables below were split into three parts for ease of viewing. Values for each CBSA are mean AQI per year, Standard deviation, the t-statistic, p_value, and a value of 1 in the null_rejection column indicates we can reject the null hypothesis; 0 we cannot. An alpha value of 0.05 wad adopted per convention.   
+The tables below were split into three parts for ease of viewing. Values for each CBSA are mean AQI per year, Standard deviation, the t-statistic, p_value, and a value of 1 in the null_rejection column indicates we can reject the null hypothesis; 0 we cannot. An alpha value of 0.05 was adopted per convention.   
 
 ![](img/dfpart1.png)
 ![](img/dfpart2.png)
