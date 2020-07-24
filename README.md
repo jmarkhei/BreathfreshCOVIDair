@@ -1,6 +1,6 @@
 # COVID: Bad for lungs; good for air?
 
-![](img/103246649-positive-woman-breathing-fresh-air-enjoying-the-wind.jpg)
+![](img/IMG_2637.jpg)
 
 The COVID-19 outbreak that hit the US shores in February 2020 fundamentally changed the societal operations to which we'd grown accustomed.  Restaurants, bars, schools, and gyms were shut down; air traffic plummeted. And all this got me thinking: has the Air Quality Index (AQI) in major metropolitan areas across the US significantly decreased in 2020, specifically in the months from March-June(~approx present)? Has decreased air and vehicular travel, an expansion of remote work, combined with other factors in the COVID-19 era resulted in a noteworthy shift in AQI from what we would otherwise expect?  Let's check out what the numbers have to say.
 
