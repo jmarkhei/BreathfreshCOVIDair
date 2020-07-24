@@ -58,9 +58,9 @@ Warmer months resulting in higher AQI values is not a truth across the board.  T
 
 To test my null hypothesis I chose to perform a T-test as the data follow a normal distribution with a mean and standard deviation. For the T-test the historic dataframe was whittled down to the 2019 values and mapped to the selected 58 metro areas.  For this I had to make a relational dictionary as the historic data listed the CBSA's differently that the 2020 data.  Using the power of scipy stats, looped through grouped by CBSA dataframes and what you see is the resulting dataframe of T-statistic and p_value.
 
-![](img/Screen Shot 2020-07-24 at 10.13.12 AM)
-![](img/Screen Shot 2020-07-24 at 10.13.37 AM)
-![](img/Screen Shot 2020-07-24 at 10.14.06 AM)
+![](img/dfpart1.png)
+![](img/dfpart2.png)
+![](img/dfpart3.png)
 
 
 
