@@ -99,6 +99,9 @@ Two cities show up from two states: Michigan and Texas.  Has there been no chang
 
 
 
+# Limitations
+As mentioned above, time series analysis is the appropriate method to tackle the question if the COVID era has brought enough significant changes from what would otherwise have been expected.  The null hypothesis that was tested with the one tailed t-test doesn't carry enough weight that we can outright reject it.  Even with an alpha value of 1%, 30 of the 34 CBSA's are still significantly different, but it should not be interpreted as saying definitively because of COVID mean AQI is different.  It should be encouraging to take the study further, to see how this impacts AQI for this year, and the next decade.
+
 
 # Further Study
 
